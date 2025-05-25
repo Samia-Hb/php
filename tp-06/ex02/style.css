@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    }
+
+form {
+    margin-bottom: 20px;
+}
+
+li  {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+
+li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+button {
+    margin-left: 10px;
+}

@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td.time {
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+.math { background-color: #d1e7dd; }
+.physique { background-color: #f8d7da; }
+.info { background-color: #cff4fc; }
+.anglais { background-color: #fff3cd; }
+.vide { background-color: #ffffff; }
